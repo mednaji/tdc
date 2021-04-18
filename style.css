@@ -1,0 +1,27 @@
+.card{
+	overflow: hidden;
+}
+ .btn{
+	margin: 0 4px;
+	
+}
+.n{
+	 position: absolute;
+    padding: 2rem 2rem;
+    background-color: var(--yellow);
+margin: -45px 25.8rem;
+    border-radius: 39%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.card-header p{
+	position: absolute;
+    margin: -1.6rem 26rem;
+    font-size: 2.3rem;
+    font-weight: initial;
+    color: var(--gray);
+}
+
+code{
+	color: #ffc107 !important;
+}
