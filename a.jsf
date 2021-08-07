@@ -1,0 +1,388 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:focus="http://richfaces.org/sandbox/focus"><head>
+	<title>Consultation des Resultats des Examens</title>
+	<link class="component" href="http://resultats.una.mr/FSJE/a4j/s/3_3_2.SR1org/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><link class="component" href="http://resultats.una.mr/FSJE/a4j/s/3_3_2.SR1org/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><link class="component" href="http://resultats.una.mr/FSJE/a4j/s/3_3_2.SR1css/panel.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><link class="component" href="http://resultats.una.mr/FSJE/a4j/s/3_3_2.SR1css/table.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><script src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1org.ajax4jsf.javascript.PrototypeScript.jsf" type="text/javascript"></script><script src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1org.ajax4jsf.javascript.AjaxScript.jsf" type="text/javascript"></script><script src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1org.ajax4jsf.javascript.ImageCacheScript.jsf" type="text/javascript"></script><script src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1org/richfaces/renderkit/html/scripts/browser_info.js.jsf" type="text/javascript"></script><script src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1org/ajax4jsf/javascript/scripts/form.js.jsf" type="text/javascript"></script><script src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1scripts/tabPanel.js.jsf" type="text/javascript"></script><link class="component" href="http://resultats.una.mr/FSJE/a4j/s/3_3_2.SR1css/tabPanel.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><script src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1org/richfaces/renderkit/html/scripts/utils.js.jsf" type="text/javascript"></script><script src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1org/richfaces/renderkit/html/scripts/json/json-dom.js.jsf" type="text/javascript"></script><script src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1org/richfaces/renderkit/html/js/FileUpload.js.jsf" type="text/javascript"></script><script src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1org/richfaces/renderkit/html/js/swfobject.js.jsf" type="text/javascript"></script><script src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1org/richfaces/renderkit/html/js/progressBar.js.jsf" type="text/javascript"></script><link class="component" href="http://resultats.una.mr/FSJE/a4j/s/3_3_2.SR1org/richfaces/renderkit/html/css/fileUpload.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><link class="component" href="http://resultats.una.mr/FSJE/a4j/s/3_3_2.SR1org/richfaces/renderkit/html/css/progressBar.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><script type="text/javascript">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1org/richfaces/renderkit/html/scripts/skinning.js.jsf" type="text/javascript"></script><link href="http://resultats.una.mr/FSJE/pages/css/template-ltr.css" rel="stylesheet" type="text/css">
+</head> 
+	<body dir="ltr">
+		<center><table>
+<tbody>
+<tr>
+<td><span id="j_id3"><!--?xml version="1.0" encoding="windows-1256"?-->
+
+
+	
+	 <link href="http://resultats.una.mr/FSJE/pages/css/template-ltr.css" rel="stylesheet" type="text/css">
+	
+	<table class="pGrid">
+<tbody>
+<tr>
+<td><img src="http://resultats.una.mr/FSJE/images/header.jpg" height="150px;" width="1100px;"></td>
+</tr>
+</tbody>
+</table>
+
+
+</span></td>
+</tr>
+</tbody>
+</table>
+<div class="rich-panel " id="j_id49" style="background-color: #f7f7f7;border: 0px;width: 1100"><div class="rich-panel-body pGrid" id="j_id49_body">			
+					<center>
+						
+					    
+				       
+				       <marquee direction="left" behavior="scroll" onmouseover="this.setAttribute('scrollamount', 0, 0);" onmouseout="this.setAttribute('scrollamount', 6, 0);" scrollamount="6"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx_message"></span></td>
+</tr>
+</tbody>
+</table>
+
+					   </marquee>
+					   
+					   <marquee direction="right" behavior="scroll" onmouseover="this.setAttribute('scrollamount', 0, 0);" onmouseout="this.setAttribute('scrollamount', 6, 0);" scrollamount="6"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetxArabe_message" style="text-align: right;float: right;"></span></td>
+</tr>
+</tbody>
+</table>
+
+					   </marquee>
+			      </center><table width="1000">
+<tbody>
+<tr>
+<td>
+<form id="j_id58" name="j_id58" method="post" action="http://resultats.una.mr/FSJE/pages/accueil.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id58" value="j_id58">
+<table class="pGrid" width="1000">
+<tbody>
+<tr>
+<td><table class="rsinfoNote"><tbody><tr><td>	 </td></tr></tbody></table></td>
+</tr>
+<tr>
+<td>
+	  <center></center></td>
+</tr>
+<tr>
+<td><table width="700">
+<tbody>
+<tr>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id63" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="100"></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id64" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="1"></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id65" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="1"></td>
+</tr>
+<tr>
+<td><span class="couleurTetx">Numéro Etudiant </span></td>
+<td><table>
+<tbody>
+<tr>
+<td><input type="text" name="j_id58:j_id68" value="B022680" class="rsinputTetx" size="8"></td>
+<td><input type="submit" name="j_id58:j_id69" value="Entrer ادخل"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><span class="couleurTetxArabe" style="text-align: right;float: right;">رقم التسجيل </span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><table width="700">
+<tbody>
+<tr>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id114" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="100"></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id115" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="1"></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id116" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="100"></td>
+</tr>
+<tr>
+<td><span class="couleurTetx">Semestre</span></td>
+<td><select name="j_id58:j_id118" class="rsinputTetx" size="1" onchange="this.form.submit();">	<option value=""></option>
+	<option value="S1" selected="selected">Premier semestre</option>
+	<option value="S2">Deuxième semestre</option>
+</select></td>
+<td><span class="couleurTetxArabe" style="text-align: right;float: right;">الفصل</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><table width="700">
+<tbody>
+<tr>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id123" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="100"></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id124" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="1"></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id125" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="100"></td>
+</tr>
+<tr>
+<td><span class="couleurTetx">Nom/Prénom</span></td>
+<td><span class="couleurTetx1">Nouha Saad Bouh Tekrour</span></td>
+<td><span class="couleurTetxArabe" style="text-align: right;float: right;">الاسم واللقب</span></td>
+</tr>
+<tr>
+<td><span class="couleurTetx">Profil</span></td>
+<td><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx1">L1 professionnelle-Gestion mention :Gestion des Ressources Humaines</span>
+</td>
+<td><span class="couleurTetx1"> </span></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><span class="couleurTetxArabe" style="text-align: right;float: right;">الشعبة</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+		           
+		  </td>
+</tr>
+<tr>
+<td><table width="1000">
+<tbody>
+<tr>
+<td><script type="text/javascript">RichFaces.tabPanel['j_id58:informations']={'id':'j_id58:informations','ontabchange':''} ;</script><table border="0" cellpadding="0" cellspacing="0" class="rich-tabpanel " id="j_id58:informations" style="width:"><tbody><tr><td align="left" class="rich-tab-bottom-line "><!--table  border="0" cellpadding="0" cellspacing="0" style="position:relative;top:1px"--><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img alt="" height="1" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" style="width: 1px; ;border:0"></td><td id="j_id58:tabResultats_cell" style="height: 100%; vertical-align: bottom;" class="rich-tabhdr-cell-active"><table border="0" cellpadding="0" cellspacing="0" id="j_id58:tabResultats_shifted" onclick="if (RichFaces.isTabActive('j_id58:tabResultats_lbl')) return false; if (!RichFaces.onTabChange(event, 'j_id58:informations','j_id58:tabResultats')) return false;A4J.AJAX.Submit('j_id58',event,{'similarityGroupingId':'j_id58:tabResultats','parameters':{'j_id58:tabResultats':'j_id58:tabResultats'} } ); return false; this.onclick = null;" style="position:relative; top:1px;;height : 100%; "><tbody><tr><td class="rich-tabhdr-side-border"><img alt="" height="1" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" style="border:0" width="1"></td><td class="rich-tabhdr-side-cell"><table border="0" cellpadding="0" cellspacing="0" style="height: 100%; width: 100%;"><tbody><tr><td id="j_id58:tabResultats_lbl" onmouseover="RichFaces.overTab(this);" onmouseout="RichFaces.outTab(this);" class="rich-tab-header rich-tab-active    couleurTetx">Résultats / النتائج</td></tr></tbody></table></td><td class="rich-tabhdr-side-border"><img alt="" height="1" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" style="border:0" width="1"></td></tr></tbody></table></td><td><img alt="" height="1" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" style="width: 1px; ;border:0"></td><td id="j_id58:tabInscriptions_cell" style="height: 100%; vertical-align: bottom;" class="rich-tabhdr-cell-inactive"><table border="0" cellpadding="0" cellspacing="0" id="j_id58:tabInscriptions_shifted" onclick="if (RichFaces.isTabActive('j_id58:tabInscriptions_lbl')) return false; if (!RichFaces.onTabChange(event, 'j_id58:informations','j_id58:tabInscriptions')) return false;A4J.AJAX.Submit('j_id58',event,{'similarityGroupingId':'j_id58:tabInscriptions','parameters':{'j_id58:tabInscriptions':'j_id58:tabInscriptions'} } ); return false; this.onclick = null;" style="position:relative;;height : 100%; "><tbody><tr><td class="rich-tabhdr-side-border"><img alt="" height="1" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" style="border:0" width="1"></td><td class="rich-tabhdr-side-cell"><table border="0" cellpadding="0" cellspacing="0" style="height: 100%; width: 100%;"><tbody><tr><td id="j_id58:tabInscriptions_lbl" onmouseover="RichFaces.overTab(this);" onmouseout="RichFaces.outTab(this);" class="rich-tab-header rich-tab-inactive    couleurTetx">Inscription / التسجيل</td></tr></tbody></table></td><td class="rich-tabhdr-side-border"><img alt="" height="1" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" style="border:0" width="1"></td></tr></tbody></table></td><td><img alt="" height="1" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" style="width: 1px; ;border:0"></td><td id="j_id58:tabEmploisExamen_cell" style="height: 100%; vertical-align: bottom;" class="rich-tabhdr-cell-inactive"><table border="0" cellpadding="0" cellspacing="0" id="j_id58:tabEmploisExamen_shifted" onclick="if (RichFaces.isTabActive('j_id58:tabEmploisExamen_lbl')) return false; if (!RichFaces.onTabChange(event, 'j_id58:informations','j_id58:tabEmploisExamen')) return false;A4J.AJAX.Submit('j_id58',event,{'similarityGroupingId':'j_id58:tabEmploisExamen','parameters':{'j_id58:tabEmploisExamen':'j_id58:tabEmploisExamen'} } ); return false; this.onclick = null;" style="position:relative;;height : 100%; "><tbody><tr><td class="rich-tabhdr-side-border"><img alt="" height="1" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" style="border:0" width="1"></td><td class="rich-tabhdr-side-cell"><table border="0" cellpadding="0" cellspacing="0" style="height: 100%; width: 100%;"><tbody><tr><td id="j_id58:tabEmploisExamen_lbl" onmouseover="RichFaces.overTab(this);" onmouseout="RichFaces.outTab(this);" class="rich-tab-header rich-tab-inactive    couleurTetx">Emplois d'examen / جدول الإمتحان</td></tr></tbody></table></td><td class="rich-tabhdr-side-border"><img alt="" height="1" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" style="border:0" width="1"></td></tr></tbody></table></td><td><img alt="" height="1" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" style="width: 1px; ;border:0"></td></tr></tbody></table><div style="display: none;"><script type="text/javascript">RichFaces.panelTabs['j_id58:informations']=[{'cellActiveClass':'rich\x2Dtabhdr\x2Dcell\x2Dactive','ontabenter':'','inactiveClass':'rich\x2Dtab\x2Dheader rich\x2Dtab\x2Dinactive    couleurTetx','name':'tabResultats','ontableave':'','activeClass':'rich\x2Dtab\x2Dheader rich\x2Dtab\x2Dactive    couleurTetx','id':'j_id58:tabResultats','cellInactiveClass':'rich\x2Dtabhdr\x2Dcell\x2Dinactive'} ,{'cellActiveClass':'rich\x2Dtabhdr\x2Dcell\x2Dactive','ontabenter':'','inactiveClass':'rich\x2Dtab\x2Dheader rich\x2Dtab\x2Dinactive    couleurTetx','name':'tabInscriptions','ontableave':'','activeClass':'rich\x2Dtab\x2Dheader rich\x2Dtab\x2Dactive    couleurTetx','id':'j_id58:tabInscriptions','cellInactiveClass':'rich\x2Dtabhdr\x2Dcell\x2Dinactive'} ,{'cellActiveClass':'rich\x2Dtabhdr\x2Dcell\x2Dactive','ontabenter':'','inactiveClass':'rich\x2Dtab\x2Dheader rich\x2Dtab\x2Dinactive    couleurTetx','name':'tabEmploisExamen','ontableave':'','activeClass':'rich\x2Dtab\x2Dheader rich\x2Dtab\x2Dactive    couleurTetx','id':'j_id58:tabEmploisExamen','cellInactiveClass':'rich\x2Dtabhdr\x2Dcell\x2Dinactive'} ] ;</script></div></td></tr><tr><td id="j_id58:tabResultats" style=";height:100%"><table border="0" cellpadding="10" cellspacing="0" class="rich-tabpanel-content-position" width="100%"><tbody><tr><td class="rich-tabpanel-content  couleurTetx" style="; "><table>
+<tbody>
+<tr>
+<td><table class="rich-table textTable" id="j_id58:j_id149" border="0" cellpadding="0" cellspacing="0" dir="ltr" width="1000"><colgroup span="1"></colgroup><thead class="rich-table-thead"><tr class="rich-table-subheader "><th class="rich-table-subheadercell  " scope="col" id="j_id58:j_id149:j_id150header"><div id="j_id58:j_id149:j_id150header:sortDiv"><table width="1000">
+<tbody>
+<tr>
+<td><table width="300">
+<tbody>
+<tr>
+<td><span class="couleurTetx" style="float: left;">Matiere</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><table width="60">
+<tbody>
+<tr>
+<td><span class="couleurTetx" style="float: left;">Credit</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><table width="60">
+<tbody>
+<tr>
+<td><span class="couleurTetx" style="float: left;">Note TP</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><table width="140">
+<tbody>
+<tr>
+<td><span class="couleurTetx" style="float: left;">Note CC</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><table width="60">
+<tbody>
+<tr>
+<td><span class="couleurTetx" style="float: left;">Note Controle Final</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><table width="100">
+<tbody>
+<tr>
+<td><span class="couleurTetx" style="float: left;">Note Rattrapage</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><table width="100">
+<tbody>
+<tr>
+<td><span class="couleurTetx" style="float: left;">Note Finale</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><table width="100">
+<tbody>
+<tr>
+<td><span class="couleurTetx" style="float: left;">Observations</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div></th></tr></thead><tfoot><tr class="rich-table-footer  "><td class="rich-table-footercell " id="j_id58:j_id149:j_id213" style="text-align: right;"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx">Moyenne du semestre </span></td>
+<td><span class="couleurTetx1">11,57 </span></td>
+<td><span class="couleurTetx1">/20</span></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td><span class="couleurTetx">Total crédit validé  </span></td>
+<td><span class="couleurTetx1">25.0</span></td>
+<td><span class="couleurTetx">/</span></td>
+<td><span class="couleurTetx1">30.0</span></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td><span class="couleurTetx">Decision Semetre </span></td>
+<td><span class="couleurTetx1">V</span></td>
+</tr>
+</tbody>
+</table>
+</td></tr></tfoot><tbody id="j_id58:j_id149:tb"><tr class="rich-table-row rich-table-firstrow "><td class="rich-table-cell " id="j_id58:j_id149:0:j_id150" width="1000"><table class="rich-table textTable" id="j_id58:j_id149:0:j_id176" border="0" cellpadding="0" cellspacing="0" width="1000"><colgroup span="8"></colgroup><tfoot><tr class="rich-table-footer  "><td class="rich-table-footercell " id="j_id58:j_id149:0:j_id176:j_id194" colspan="5" width="700"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx">Module :</span></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id149:0:j_id176:j_id198" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="50"></td>
+<td><span class="couleurTetx">FC11</span></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id149:0:j_id176:j_id200" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="50"></td>
+<td><span class="couleurTetx1">Fondamentaux de gestion I</span></td>
+</tr>
+</tbody>
+</table>
+</td><td class="rich-table-footercell " id="j_id58:j_id149:0:j_id176:j_id203" width="100"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx">Moyenne Module </span></td>
+</tr>
+</tbody>
+</table>
+</td><td class="rich-table-footercell " id="j_id58:j_id149:0:j_id176:j_id207" width="100"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx1">9,13 </span></td>
+</tr>
+</tbody>
+</table>
+</td><td class="rich-table-footercell " id="j_id58:j_id149:0:j_id176:j_id210" width="100"><span class="couleurTetx1" style="float: right;">V</span></td></tr></tfoot><tbody id="j_id58:j_id149:0:j_id176:tb"><tr class="rich-table-row rich-table-firstrow "><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:0:j_id177" width="300"><span class="couleurTetx1">Principe de gestion </span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:0:j_id179" width="100"><span class="couleurTetx1">4,0 </span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:0:j_id181" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:0:j_id183" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:0:j_id185" width="100"><span class="couleurTetx1">10,75&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:0:j_id187" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:0:j_id189" width="100"><span class="couleurTetx1">10,75&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:0:j_id191" width="100"><span class="couleurTetx1">V</span></td></tr><tr class="rich-table-row "><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:1:j_id177" width="300"><span class="couleurTetx1">Comptabilité financière 1 </span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:1:j_id179" width="100"><span class="couleurTetx1">4,0 </span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:1:j_id181" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:1:j_id183" width="100"><span class="couleurTetx1">4,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:1:j_id185" width="100"><span class="couleurTetx1">7,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:1:j_id187" width="100"><span class="couleurTetx1">9,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:1:j_id189" width="100"><span class="couleurTetx1">7,50&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:0:j_id176:1:j_id191" width="100"><span class="couleurTetx1">V</span></td></tr></tbody></table></td></tr><tr class="rich-table-row "><td class="rich-table-cell " id="j_id58:j_id149:1:j_id150" width="1000"><table class="rich-table textTable" id="j_id58:j_id149:1:j_id176" border="0" cellpadding="0" cellspacing="0" width="1000"><colgroup span="8"></colgroup><tfoot><tr class="rich-table-footer  "><td class="rich-table-footercell " id="j_id58:j_id149:1:j_id176:j_id194" colspan="5" width="700"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx">Module :</span></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id149:1:j_id176:j_id198" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="50"></td>
+<td><span class="couleurTetx">FC12</span></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id149:1:j_id176:j_id200" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="50"></td>
+<td><span class="couleurTetx1">Techniques Quantitatives I</span></td>
+</tr>
+</tbody>
+</table>
+</td><td class="rich-table-footercell " id="j_id58:j_id149:1:j_id176:j_id203" width="100"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx">Moyenne Module </span></td>
+</tr>
+</tbody>
+</table>
+</td><td class="rich-table-footercell " id="j_id58:j_id149:1:j_id176:j_id207" width="100"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx1">11,68 </span></td>
+</tr>
+</tbody>
+</table>
+</td><td class="rich-table-footercell " id="j_id58:j_id149:1:j_id176:j_id210" width="100"><span class="couleurTetx1" style="float: right;">V</span></td></tr></tfoot><tbody id="j_id58:j_id149:1:j_id176:tb"><tr class="rich-table-row rich-table-firstrow "><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:0:j_id177" width="300"><span class="couleurTetx1">Statistique descriptive 1</span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:0:j_id179" width="100"><span class="couleurTetx1">3,0 </span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:0:j_id181" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:0:j_id183" width="100"><span class="couleurTetx1">13,50&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:0:j_id185" width="100"><span class="couleurTetx1">12,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:0:j_id187" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:0:j_id189" width="100"><span class="couleurTetx1">12,45&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:0:j_id191" width="100"><span class="couleurTetx1">V</span></td></tr><tr class="rich-table-row "><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:1:j_id177" width="300"><span class="couleurTetx1">Mathématiques</span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:1:j_id179" width="100"><span class="couleurTetx1">4,0 </span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:1:j_id181" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:1:j_id183" width="100"><span class="couleurTetx1">16,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:1:j_id185" width="100"><span class="couleurTetx1">9,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:1:j_id187" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:1:j_id189" width="100"><span class="couleurTetx1">11,10&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:1:j_id176:1:j_id191" width="100"><span class="couleurTetx1">V</span></td></tr></tbody></table></td></tr><tr class="rich-table-row "><td class="rich-table-cell " id="j_id58:j_id149:2:j_id150" width="1000"><table class="rich-table textTable" id="j_id58:j_id149:2:j_id176" border="0" cellpadding="0" cellspacing="0" width="1000"><colgroup span="8"></colgroup><tfoot><tr class="rich-table-footer  "><td class="rich-table-footercell " id="j_id58:j_id149:2:j_id176:j_id194" colspan="5" width="700"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx">Module :</span></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id149:2:j_id176:j_id198" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="50"></td>
+<td><span class="couleurTetx">FC13</span></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id149:2:j_id176:j_id200" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="50"></td>
+<td><span class="couleurTetx1">Environnement de l’entreprise I</span></td>
+</tr>
+</tbody>
+</table>
+</td><td class="rich-table-footercell " id="j_id58:j_id149:2:j_id176:j_id203" width="100"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx">Moyenne Module </span></td>
+</tr>
+</tbody>
+</table>
+</td><td class="rich-table-footercell " id="j_id58:j_id149:2:j_id176:j_id207" width="100"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx1">09,06 </span></td>
+</tr>
+</tbody>
+</table>
+</td><td class="rich-table-footercell " id="j_id58:j_id149:2:j_id176:j_id210" width="100"><span class="couleurTetx1" style="float: right;">NV</span></td></tr></tfoot><tbody id="j_id58:j_id149:2:j_id176:tb"><tr class="rich-table-row rich-table-firstrow "><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:0:j_id177" width="300"><span class="couleurTetx1">Introduction à l’économie</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:0:j_id179" width="100"><span class="couleurTetx1">3,0 </span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:0:j_id181" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:0:j_id183" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:0:j_id185" width="100"><span class="couleurTetx1">11,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:0:j_id187" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:0:j_id189" width="100"><span class="couleurTetx1">10,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:0:j_id191" width="100"><span class="couleurTetx1">V</span></td></tr><tr class="rich-table-row "><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:1:j_id177" width="300"><span class="couleurTetx1">Introduction au Droit</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:1:j_id179" width="100"><span class="couleurTetx1">3,0 </span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:1:j_id181" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:1:j_id183" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:1:j_id185" width="100"><span class="couleurTetx1">10,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:1:j_id187" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:1:j_id189" width="100"><span class="couleurTetx1">13,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:1:j_id191" width="100"><span class="couleurTetx1">V</span></td></tr><tr class="rich-table-row "><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:2:j_id177" width="300"><span class="couleurTetx1">Techniques de communication 1</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:2:j_id179" width="100"><span class="couleurTetx1">2,0 </span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:2:j_id181" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:2:j_id183" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:2:j_id185" width="100"><span class="couleurTetx1">7,25&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:2:j_id187" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:2:j_id189" width="100"><span class="couleurTetx1">7,25&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:2:j_id176:2:j_id191" width="100"><span class="couleurTetx1">NV</span></td></tr></tbody></table></td></tr><tr class="rich-table-row "><td class="rich-table-cell " id="j_id58:j_id149:3:j_id150" width="1000"><table class="rich-table textTable" id="j_id58:j_id149:3:j_id176" border="0" cellpadding="0" cellspacing="0" width="1000"><colgroup span="8"></colgroup><tfoot><tr class="rich-table-footer  "><td class="rich-table-footercell " id="j_id58:j_id149:3:j_id176:j_id194" colspan="5" width="700"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx">Module :</span></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id149:3:j_id176:j_id198" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="50"></td>
+<td><span class="couleurTetx">FC14</span></td>
+<td><img alt="" class="rich-spacer " height="1" id="j_id58:j_id149:3:j_id176:j_id200" src="http://resultats.una.mr/FSJE/a4j/g/3_3_2.SR1images/spacer.gif.jsf" width="50"></td>
+<td><span class="couleurTetx1">Enseignements complémentaires I</span></td>
+</tr>
+</tbody>
+</table>
+</td><td class="rich-table-footercell " id="j_id58:j_id149:3:j_id176:j_id203" width="100"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx">Moyenne Module </span></td>
+</tr>
+</tbody>
+</table>
+</td><td class="rich-table-footercell " id="j_id58:j_id149:3:j_id176:j_id207" width="100"><table>
+<tbody>
+<tr>
+<td><span class="couleurTetx1">09,57 </span></td>
+</tr>
+</tbody>
+</table>
+</td><td class="rich-table-footercell " id="j_id58:j_id149:3:j_id176:j_id210" width="100"><span class="couleurTetx1" style="float: right;">NV</span></td></tr></tfoot><tbody id="j_id58:j_id149:3:j_id176:tb"><tr class="rich-table-row rich-table-firstrow "><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:0:j_id177" width="300"><span class="couleurTetx1">Bureautique 1</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:0:j_id179" width="100"><span class="couleurTetx1">2,0 </span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:0:j_id181" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:0:j_id183" width="100"><span class="couleurTetx1">9,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:0:j_id185" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:0:j_id187" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:0:j_id189" width="100"><span class="couleurTetx1">9,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:0:j_id191" width="100"><span class="couleurTetx1">V</span></td></tr><tr class="rich-table-row "><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:1:j_id177" width="300"><span class="couleurTetx1">Méthodologie de travail universitaire</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:1:j_id179" width="100"><span class="couleurTetx1">3,0 </span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:1:j_id181" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:1:j_id183" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:1:j_id185" width="100"><span class="couleurTetx1">04,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:1:j_id187" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:1:j_id189" width="100"><span class="couleurTetx1">07,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:1:j_id191" width="100"><span class="couleurTetx1">NV</span></td></tr><tr class="rich-table-row "><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:2:j_id177" width="300"><span class="couleurTetx1">Anglais 1</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:2:j_id179" width="100"><span class="couleurTetx1">2,0 </span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:2:j_id181" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:2:j_id183" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:2:j_id185" width="100"><span class="couleurTetx1">18,50&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:2:j_id187" width="100"><span class="couleurTetx1">0,00&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:2:j_id189" width="100"><span class="couleurTetx1">18,50&nbsp;</span></td><td class="rich-table-cell " id="j_id58:j_id149:3:j_id176:2:j_id191" width="100"><span class="couleurTetx1">V</span></td></tr></tbody></table></td></tr></tbody></table></td>
+</tr>
+<tr>
+<td><input type="submit" name="j_id58:j_id229" value="Imprimer"></td>
+</tr>
+<tr>
+<td><span class="couleurTetx1" style="color: red;fl">V : Validé</span></td>
+</tr>
+<tr>
+<td><span class="couleurTetx1" style="color: red;fl">NV : Non Validé</span></td>
+</tr>
+<tr>
+<td><span class="couleurTetx1" style="color: red;fl">R : Rattrapage</span></td>
+</tr>
+<tr>
+<td><span class="couleurTetx1" style="color: red;fl">NB : Ce reléve ne fait pas objet d'un document officiel</span></td>
+</tr>
+</tbody>
+</table>
+</td></tr></tbody></table></td></tr></tbody></table></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id6">
+</form></td>
+</tr>
+</tbody>
+</table>
+</div></div>
+			
+		</center>
+	
+</body></html>
